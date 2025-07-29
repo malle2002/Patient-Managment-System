@@ -1,0 +1,5 @@
+### Get request to validate Token
+GET http://localhost:20000/api/auth/validate
+Authorization: Bearer {{token}}
+
+###

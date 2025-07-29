@@ -1,0 +1,14 @@
+### Create a new patient
+POST http://localhost:20000/api/patients
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "name": "John Doe with billing account",
+  "email": "jsdaaosdesdafsasds_doeaaasddse@example.com",
+  "address": "123 main street22",
+  "dateOfBirth": "1995-09-09",
+  "registerDate": "2024-11-08"
+}
+
+###
